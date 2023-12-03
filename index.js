@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { program } from "commander";
 import posts from "./commands/posts.js";
 import comments from "./commands/comments.js";
