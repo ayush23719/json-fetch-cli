@@ -1,4 +1,4 @@
-import program from "commander";
+import { program } from "commander";
 
 program.description("Access the JSON Placeholder API");
 program.name("jsonf");
