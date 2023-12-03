@@ -4,7 +4,13 @@ import posts from "./commands/posts.js";
 import comments from "./commands/comments.js";
 import users from "./commands/users.js";
 
-program.description("Access the JSON Placeholder API");
+program.description(`\x1b[38;2;12;240;73m                  ------------ Welcome To JSON Fetch CLI ------------
+    
+    JSON Fetch CLI is a command-line tool for seamless interaction with the JSONPlaceholder API. 
+    
+    Author: @ayush23719
+    \x1b[0m`);
+
 program.name("jsonf");
 program.usage("<command>");
 program.addHelpCommand(false);
